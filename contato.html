@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Entre em contato com a equipe do TechInsight - Estamos à disposição para responder suas dúvidas, receber sugestões ou discutir parcerias">
+<title>Contato | TechInsight - Blog de Tecnologia</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/contact.css">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+<!-- Skip to main content link for accessibility -->
+<a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+<!-- Header (same as index.html) -->
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="fas fa-microchip me-2"></i>
+                <span>Tech<span class="text-purple">Insight</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" 
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="categoria-ia.html">Inteligência Artificial</a></li>
+                            <li><a class="dropdown-item" href="categoria-hardware.html">Hardware</a></li>
+                            <li><a class="dropdown-item" href="categoria-software.html">Software</a></li>
+                            <li><a class="dropdown-item" href="categoria-programacao.html">Programação</a></li>
+                            <li><a class="dropdown-item" href="categoria-gadgets.html">Gadgets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Buscar">
+                        <button class="btn btn-outline-purple" type="submit" aria-label="Botão de busca">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="ms-lg-3 mt-3 mt-lg-0 d-flex">
+                    <button class="btn btn-sm btn-outline-light me-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="fas fa-sign-in-alt me-1"></i> Login
+                    </button>
+                    <button class="btn btn-sm btn-purple" type="button" data-bs-toggle="modal" data-bs-target="#signupModal">
+                        Cadastrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Page Header -->
+<div class="page-header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h1 class="page-title">Entre em Contato</h1>
+                <p class="lead">Estamos à disposição para responder suas dúvidas, receber sugestões ou discutir parcerias.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<main id="main-content" class="py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="contact-info">
+                    <h2 class="h3 mb-4">Informações de Contato</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="h5">Endereço</h3>
+                            <p>Av. Paulista, 1000<br>Bela Vista, São Paulo - SP<br>CEP: 01310-100</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="h5">Telefone</h3>
+                            <p><a href="tel:+5511999999999">+55 (11) 99999-9999</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="h5">Email</h3>
+                            <p><a href="mailto:contato@techinsight.com">contato@techinsight.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="h5">Horário de Atendimento</h3>
+                            <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links mt-4">
+                        <h3 class="h5 mb-3">Siga-nos</h3>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="col-lg-8">
+                <div class="contact-form-container">
+                    <h2 class="h3 mb-4">Envie-nos uma Mensagem</h2>
+                    
+                    <form id="contactForm" class="contact-form needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                                    <label for="name">Nome</label>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe seu nome.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+                                    <label for="email">Email</label>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe um email válido.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="phone" placeholder="(99) 99999-9999">
+                                    <label for="phone">Telefone (opcional)</label>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="subject" required>
+                                        <option value="" selected disabled>Selecione uma opção</option>
+                                        <option value="general">Dúvida Geral</option>
+                                        <option value="support">Suporte Técnico</option>
+                                        <option value="partnership">Proposta de Parceria</option>
+                                        <option value="advertising">Publicidade</option>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="other">Outro</option>
+                                    </select>
+                                    <label for="subject">Assunto</label>
+                                    <div class="invalid-feedback">
+                                        Por favor, selecione um assunto.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" placeholder="Sua mensagem" style="height: 200px" required></textarea>
+                                    <label for="message">Mensagem</label>
+                                    <div class="invalid-feedback">
+                                        Por favor, escreva sua mensagem.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="newsletter" checked>
+                                    <label class="form-check-label" for="newsletter">
+                                        Desejo receber a newsletter com as últimas novidades
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="privacy" required>
+                                    <label class="form-check-label" for="privacy">
+                                        Concordo com a <a href="politica-privacidade.html" target="_blank">Política de Privacidade</a> e com o processamento dos meus dados
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        Você precisa concordar com nossa política de privacidade.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 mt-4">
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-purple btn-lg">
+                                        <i class="fas fa-paper-plane me-2"></i> Enviar Mensagem
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Map Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="map-container">
+                    <h2 class="h3 mb-4">Nossa Localização</h2>
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0976956233805!2d-46.65412508502264!3d-23.564611284681055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1623256785322!5m2!1spt-BR!2sbr" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade" title="Mapa da localização do TechInsight"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FAQ Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="faq-section">
+                    <h2 class="h3 mb-4">Perguntas Frequentes</h2>
+                    
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                    Como posso me tornar um autor no TechInsight?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Para se tornar um autor no TechInsight, envie-nos um email com o assunto "Quero ser autor" para <a href="mailto:autores@techinsight.com">autores@techinsight.com</a> com algumas amostras de seus textos e uma breve descrição sobre você e suas áreas de interesse em tecnologia. Nossa equipe editorial analisará sua solicitação e entrará em contato em até 5 dias úteis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                    Como posso anunciar no TechInsight?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Oferecemos diversas opções de publicidade, desde banners tradicionais até conteúdo patrocinado e parcerias estratégicas. Para conhecer nosso media kit e discutir as possibilidades, entre em contato com nossa equipe comercial pelo email <a href="mailto:comercial@techinsight.com">comercial@techinsight.com</a> ou preencha o formulário de contato selecionando "Publicidade" como assunto.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                    Posso republicar artigos do TechInsight em meu site?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Nosso conteúdo é protegido por direitos autorais, mas oferecemos opções de licenciamento para republicação. Para solicitar permissão, envie um email para <a href="mailto:conteudo@techinsight.com">conteudo@techinsight.com</a> com detalhes sobre qual artigo você deseja republicar e onde será publicado. Citações curtas são permitidas desde que a fonte seja devidamente creditada com link para o artigo original.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Como posso reportar um erro em um artigo?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Valorizamos a precisão em nosso conteúdo. Se você encontrou um erro em algum de nossos artigos, por favor, envie um email para <a href="mailto:correcoes@techinsight.com">correcoes@techinsight.com</a> com o link do artigo e a descrição do erro. Você também pode deixar um comentário no próprio artigo ou usar o formulário de contato acima selecionando "Feedback" como assunto.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                    Vocês aceitam sugestões de pautas?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Sim! Adoramos receber sugestões de nossos leitores. Se você tem uma ideia para um artigo ou gostaria de ver um tema específico abordado em nosso blog, envie sua sugestão para <a href="mailto:pautas@techinsight.com">pautas@techinsight.com</a> ou use o formulário de contato acima. Nossa equipe editorial avalia todas as sugestões recebidas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer (same as index.html) -->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <h3 class="h5 mb-3">Sobre o TechInsight</h3>
+                <p>Um blog dedicado a explorar as últimas tendências e inovações no mundo da tecnologia, com análises aprofundadas e conteúdo de qualidade.</p>
+                <div class="social-links mt-3">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <h3 class="h5 mb-3">Links Rápidos</h3>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="politica-privacidade.html">Privacidade</a></li>
+                    <li><a href="termos-uso.html">Termos de Uso</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                <h3 class="h5 mb-3">Categorias</h3>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="categoria-ia.html">Inteligência Artificial</a></li>
+                    <li><a href="categoria-hardware.html">Hardware</a></li>
+                    <li><a href="categoria-software.html">Software</a></li>
+                    <li><a href="categoria-programacao.html">Programação</a></li>
+                    <li><a href="categoria-gadgets.html">Gadgets</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-3 col-md-4">
+                <h3 class="h5 mb-3">Contato</h3>
+                <ul class="list-unstyled footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:contato@techinsight.com">contato@techinsight.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+5511999999999">+55 (11) 99999-9999</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>São Paulo, SP - Brasil</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr class="mt-4 mb-3">
+        
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">&copy; 2023 TechInsight. Todos os direitos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <p class="mb-0">
+                    Desenvolvido com <i class="fas fa-heart text-danger"></i> por 
+                    <a href="#" class="text-decoration-none">Seu Nome</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" class="btn btn-purple back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Login Modal (same as index.html) -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="loginEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="loginPassword" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Sua senha" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Lembrar de mim</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-purple">Entrar</button>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="text-decoration-none">Esqueceu sua senha?</a>
+                    </div>
+                </form>
+                <hr>
+                <div class="social-login">
+                    <p class="text-center mb-3">Ou entre com</p>
+                    <div class="d-flex justify-content-center gap-2">
+                        <button class="btn btn-outline-primary"><i class="fab fa-facebook-f"></i></button>
+                        <button class="btn btn-outline-info"><i class="fab fa-twitter"></i></button>
+                        <button class="btn btn-outline-danger"><i class="fab fa-google"></i></button>
+                        <button class="btn btn-outline-dark"><i class="fab fa-github"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <p class="mb-0">Não tem uma conta? <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal" data-bs-dismiss="modal">Cadastre-se</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Signup Modal (same as index.html) -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signupModalLabel">Criar Conta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Seu nome" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName" class="form-label">Sobrenome</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Seu sobrenome" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="signupEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="signupEmail" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="signupPassword" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="signupPassword" placeholder="Crie uma senha" required>
+                        <div class="form-text">A senha deve ter pelo menos 8 caracteres, incluindo letras e números.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirmar Senha</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                        <label class="form-check-label" for="agreeTerms">
+                            Concordo com os <a href="termos-uso.html" target="_blank">Termos de Uso</a> e <a href="politica-privacidade.html" target="_blank">Política de Privacidade</a>
+                        </label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-purple">Criar Conta</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <p class="mb-0">Já tem uma conta? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Faça login</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Mensagem Enviada</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="success-icon mb-4">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h4>Obrigado pelo seu contato!</h4>
+                <p>Sua mensagem foi enviada com sucesso. Nossa equipe responderá o mais breve possível.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-purple" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cookie Consent (same as index.html) -->
+<div class="cookie-consent" id="cookieConsent">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 col-md-7">
+                <p class="mb-md-0">
+                    Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site.
+                    <a href="politica-privacidade.html">Saiba mais</a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-5 text-md-end mt-3 mt-md-0">
+                <button class="btn btn-sm btn-outline-light me-2" id="cookieSettings">Configurações</button>
+                <button class="btn btn-sm btn-purple" id="cookieAccept">Aceitar Todos</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
